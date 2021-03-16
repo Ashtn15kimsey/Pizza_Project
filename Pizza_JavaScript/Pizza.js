@@ -21,6 +21,7 @@ function getReceipt() {
     sizeTotal = 14;
     } else if (selectedSize === "Extra Large Pizza") {
     sizeTotal = 16;
+    } else if (selectedSize ==="Vegetable Pizza")
     
     }
 
@@ -43,7 +44,7 @@ function getTopping(runningTotal,text1) {
             text1 = text1+toppingArray[j].value+"<br>";
         }
     }
-    var toppingCount = selectedTopping.length;
+    var toppingCount = selectTopping.length;
     if (toppingCount > 1) {
         toppingTotal = (toppingCount - 1);
     } else {
