@@ -21,7 +21,10 @@ function getReceipt() {
     sizeTotal = 14;
     } else if (selectedSize === "Extra Large Pizza") {
     sizeTotal = 16;
-    } else if (selectedSize ==="Vegetable Pizza") {
+    } else if (selectedSize === "Vegetable Pizza") {
+    sizeTotal = 18;
+    } else if (selectedSize === "Special Pizza") {
+    sizeTotal = 20;
     
     }
 
